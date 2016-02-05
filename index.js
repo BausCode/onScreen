@@ -1,5 +1,5 @@
-(function($) {
-
+module.exports = function($) {
+  
     $.fn.onScreen = function(options) {
         
         var params = {
@@ -259,4 +259,4 @@
         });
     };
 
-})(jQuery);
+};
